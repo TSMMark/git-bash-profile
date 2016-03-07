@@ -21,3 +21,14 @@ source ~/.bash_profile
 ```
 
 5) Profit $.
+
+###In Case of error
+
+If you receive the error: `-bash: __git_ps1: command not found`
+
+Place this line at the top of your `.bash_profile`
+```
+source '/usr/local/etc/bash_completion.d/git-prompt.sh'
+```
+
+Save it and run `source ~/.bash_profile` again.
