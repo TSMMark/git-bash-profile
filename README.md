@@ -1,10 +1,20 @@
 #Set It Up
 
-1) Using homebrew install bash-completion
+1) Install bash-completion
+
+Mac OS X:
 
 ```shell
 brew install bash-completion git
 ```
+
+Ubuntu/Debian:
+
+```shell
+sudo apt-get install git bash-completion
+```
+
+*Install instructions for other systems may be found here: https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion#ubuntudebian*
 
 2) Modify your `.bash_profile` (replace subl with your text editor or nano)
 
